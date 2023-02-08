@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from './styles';
 import WhatsApp from '../../assets/WhatsApp.svg.png';
-import { ContactForm} from '../Form/Form';
+import { ContactForm } from '../Form/Form';
 
 
 
@@ -16,12 +16,12 @@ export function Contact() {
       <div className='contacts'>
         <div>
           <img src={WhatsApp} alt='mensaje' />
-          <a href='https://api.whatsapp.com/send?phone=%2B5492213195893&text='>
-            (+54) 2213 19-5893
+          <a href='https://api.whatsapp.com/send?phone=%2B5492213195893&text=' target="_blank" rel="noreferrer">
+            (+54) 221 319-5893
           </a>
         </div>
       </div>
-      <ContactForm/>
+      <ContactForm />
     </Container>
   );
 }
