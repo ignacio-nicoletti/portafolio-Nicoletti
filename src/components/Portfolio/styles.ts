@@ -29,7 +29,7 @@ export const Container = styled.section`
       color: #fff;
       &:hover {
         transform: translateY(-5px);
-        background-color: var(--pink);
+        background-color: var(--blueOpacity);
       }
 
       header {
@@ -57,10 +57,10 @@ export const Container = styled.section`
         margin-bottom: 2rem;
         a {
           color: #ffff;
-          border-bottom: 1px solid var(--green);
+          border-bottom: 1px solid var(--red);
           transition: color 0.25s;
           &:hover {
-            color: var(--green);
+            color: var(--blue);
           }
         }
       }
