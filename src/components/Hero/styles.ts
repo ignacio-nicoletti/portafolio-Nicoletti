@@ -4,8 +4,9 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   padding-top: 15%;
+  padding-bottom:5%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 8rem;
   background: rgba(0,0,0,0);
   .hero-text{
@@ -17,7 +18,7 @@ export const Container = styled.section`
     }
 
     h3{
-      color:var(--green);
+      color:var(--red);
       margin: 1rem 0;
     }
 

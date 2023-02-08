@@ -11,7 +11,7 @@ export const Container = styled.section`
       font-size: 4rem;
     }
     p{
-      color: var(--green);
+      color: var(--red);
       font-weight: 500;
     }
   }
@@ -31,7 +31,7 @@ export const Container = styled.section`
       width: 50%;
       max-width: 40rem;
       gap: 2rem;
-      background-color: var(--green);
+      background-color: var(--red);
       border-radius: 1.4rem;
       padding: 1rem;
       transition: background-color 0.25s;
@@ -43,7 +43,7 @@ export const Container = styled.section`
         font-weight: 500;
       }
       &:hover{
-        background-color: var(--pink);
+        background-color: var(--red);
         a{
           color: #FFF;
         }

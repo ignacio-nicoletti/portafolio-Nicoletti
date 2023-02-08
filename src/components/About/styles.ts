@@ -26,12 +26,12 @@ export const Container = styled.section`
   h2{
     display: inline-block;
     margin-bottom: 2rem;
-    border-bottom: 0.2rem solid var(--green);
+    border-bottom: 0.2rem solid var(--red);
   }
 
   h3{
     margin-top: 2rem;
-    color: var(--green);
+    color: var(--red);
   }
 
   p{
@@ -46,7 +46,7 @@ export const Container = styled.section`
     text-align: center;
    img{
      margin-top: 2rem;
-     width: 80%;
+     width: 60%;
      filter: grayscale(1);
      transition: filter 0.5s;
      &:hover{

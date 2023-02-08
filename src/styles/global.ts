@@ -9,6 +9,8 @@ export const GlobalStyle = createGlobalStyle`
     --black: #212121;
     --green: #0e6f21;
     --blue: #016fb9;
+    --red:#d62828;
+    --blueOpacity:#003049;
     scroll-padding-top: 10rem;
 
     &.light{
@@ -97,7 +99,7 @@ export const GlobalStyle = createGlobalStyle`
   button, .button{
     border: none;
     cursor: pointer;
-    background-color: var(--green);
+    background-color: var(--red);
     color: #FFFF;
     border-radius: 2rem;
     font-weight: 500;
@@ -117,7 +119,7 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 3rem;
     color: #FFFF;
     &::first-letter{
-      color: var(--green);
+      color: var(--red);
     }
   }
   

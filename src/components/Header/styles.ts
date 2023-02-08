@@ -101,7 +101,7 @@ export const Container = styled.header`
     text-indent: -9999px;
     width: 55px;
     height: 30px;
-    background: var(--green);
+    background: var(--red);
     display: block;
     justify-content: center;
     align-items: center;

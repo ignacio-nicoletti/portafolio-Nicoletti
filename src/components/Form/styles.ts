@@ -17,12 +17,12 @@ justify-content:center;
       width: 100%;
       height: 40px;
       border-radius: 5px;
-      color:  var(--green);
+      color:  var(--red);
       &:focus {
-        color: var(--green);
-        border: 1px solid (--green);
+        color: var(--red);
+        border: 1px solid (--red);
         &:focus {
-          border: 2px solid var(--green);
+          border: 2px solid var(--red);
         }
       }
     }
@@ -35,10 +35,10 @@ justify-content:center;
       padding:1%;
       outline: none;
       border-radius: 5px;
-      color: var(--black);
+      color: var(--red);
       border: 1px solid black;
       &:focus {
-        border: 2px solid var(--green);
+        border: 2px solid var(--red);
       }
     }
     label {
@@ -48,7 +48,7 @@ justify-content:center;
     input[type="submit"] {
       margin-top: 2rem;
       cursor: pointer;
-      color: var(--green);
+      color: var(--red);
       border: none;
     }
     button{
@@ -57,12 +57,12 @@ justify-content:center;
       justify-content: center;
       gap: 2rem;
       margin-top: 2rem;
-      background-color: var(--green);
+      background-color: var(--red);
       border-radius: 1.4rem;
       padding: 1rem;
       transition: background-color 0.25s;
       &:hover{
-        background-color: var(--pink);
+        background-color: var(--red);
         a{
           color: #FFF;
         }
