@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from './styles';
-import WhatsApp from '../../assets/WhatsApp.svg.png';
+import WhatsApp from '../../assets/WhatsApp.svg2.png';
 import { ContactForm } from '../Form/Form';
 
 
