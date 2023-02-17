@@ -172,7 +172,7 @@ export const Container = styled.header`
       background-color: var(--red);
 
       a.button{
-        background-color: var(--pink);
+        background-color: var(--black);
       }
 
       &.active{

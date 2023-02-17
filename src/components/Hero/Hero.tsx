@@ -27,11 +27,6 @@ export function Hero() {
           </BrowserRouter>
         </ScrollAnimation>
       </div>
-      {/* <div className="hero-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
-          <img src={Illustration} alt="" />
-        </ScrollAnimation>
-      </div> */}
     </Container>
   )
 }

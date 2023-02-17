@@ -8,7 +8,7 @@ import { Main } from './components/Main/Main';
 function App() {
   return (
     <>
-          <GlobalStyle></GlobalStyle>
+      <GlobalStyle></GlobalStyle>
       <Header></Header>
       <Main></Main>
       <Footer></Footer>
