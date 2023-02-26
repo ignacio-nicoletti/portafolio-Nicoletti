@@ -3,9 +3,6 @@ import { Container } from './styles';
 import WhatsApp from '../../assets/WhatsApp.svg2.png';
 import { ContactForm } from '../Form/Form';
 
-
-
-
 export function Contact() {
   return (
     <Container id='contacto'>

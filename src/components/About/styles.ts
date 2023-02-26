@@ -14,7 +14,8 @@ export const Container = styled.section`
     gap: 1.8rem;
   }
   .hability{
-    display: flex;
+    display: grid;
+     grid-template-columns: repeat(5, 1.2rem);
     flex-direction: column;
     align-items: center;
 
@@ -45,8 +46,9 @@ export const Container = styled.section`
   .about-image{
     text-align: center;
    img{
-     margin-top: 2rem;
+     margin-top: 3rem;
      width: 60%;
+     border-radius:10px;
      filter: grayscale(1);
      transition: filter 0.5s;
      &:hover{

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container } from './styles';
-import profileImage from '../../assets/profile-image.png';
 import cssIcon from '../../assets/css-icon.svg';
 import htmlIcon from '../../assets/html-icon.svg';
 import jsIcon from '../../assets/js-icon.svg';
@@ -8,6 +7,11 @@ import nodeIcon from '../../assets/node-icon.svg';
 import reactIcon from '../../assets/react-icon.svg';
 import typescriptIcon from '../../assets/typescript-icon.svg';
 import ScrollAnimation from 'react-animate-on-scroll';
+import profile from '../../assets/profile-image.png';
+import materialUI from '../../assets/materialui-icon.svg';
+import mongoDb from '../../assets/mongodb-icons.svg';
+import redux from '../../assets/redux-icon.svg';
+import express from '../../assets/express-icon.svg';
 
 export function About() {
   return (
@@ -84,11 +88,31 @@ export function About() {
               <img src={typescriptIcon} alt='Typescript' />
             </ScrollAnimation>
           </div>
+          <div className='hability'>
+            <ScrollAnimation animateIn='fadeInUp' delay={0.7 * 1000}>
+              <img src={materialUI} alt='materialUI' />
+            </ScrollAnimation>
+          </div>
+          <div className='hability'>
+            <ScrollAnimation animateIn='fadeInUp' delay={0.7 * 1000}>
+              <img src={mongoDb} alt='MongoDB' />
+            </ScrollAnimation>
+          </div>
+          <div className='hability'>
+            <ScrollAnimation animateIn='fadeInUp' delay={0.7 * 1000}>
+              <img src={redux} alt='Redux' />
+            </ScrollAnimation>
+          </div>
+          <div className='hability'>
+            <ScrollAnimation animateIn='fadeInUp' delay={0.7 * 1000}>
+              <img src={express} alt='Express' />
+            </ScrollAnimation>
+          </div>
         </div>
       </div>
       <div className='about-image'>
         <ScrollAnimation animateIn='fadeInRight' delay={0.6 * 1000}>
-          <img src={profileImage} alt='profileImage' />
+          <img src={profile} alt='profileImage' />
         </ScrollAnimation>
       </div>
     </Container>
