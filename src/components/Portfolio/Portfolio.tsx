@@ -7,6 +7,7 @@ import timeapp from '../../assets/time-app.png'
 import droner from '../../assets/droner.png'
 import nabijash from '../../assets/nabijash.png'
 import store from '../../assets/store.png'
+import proceso from '../../assets/proceso.png'
 
 
 
@@ -76,7 +77,7 @@ export function Portfolio() {
               </footer>
             </div>
             <div className="back">
-              <img src="http://wiki.vykar.com/skins/common/images/2000px-Playing_card_spade_A_svg.png" alt="" className='img' />
+              <img src={proceso} alt="" className='img' />
             </div>
           </div>
         </ScrollAnimation>
@@ -104,7 +105,7 @@ export function Portfolio() {
               </footer>
             </div>
             <div className="back">
-              <img src="http://wiki.vykar.com/skins/common/images/2000px-Playing_card_spade_A_svg.png" alt="" className='img' />
+              <img src={proceso} alt="" className='img' />
             </div>
           </div>
         </ScrollAnimation>
@@ -136,7 +137,7 @@ export function Portfolio() {
               </footer>
             </div>
             <div className="back">
-              <img src="http://wiki.vykar.com/skins/common/images/2000px-Playing_card_spade_A_svg.png" alt="" className='img' />
+              <img src={proceso} alt="" className='img' />
             </div>
           </div>
         </ScrollAnimation>
