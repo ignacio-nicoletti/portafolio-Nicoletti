@@ -21,15 +21,18 @@ export const Container = styled.section`
       padding: 2rem 1.8rem;
       background-color: #2b2b2b;
       border-radius: 1.2rem;
-      transition: 0.25s;
       display: flex;
       flex-direction: column;
       height: 100%;
       width: 100%;
       color: #fff;
+      transition:0.50s ;
+      
       &:hover {
         transform: translateY(-5px);
         background-color: var(--blueOpacity);
+      
+        
       }
 
       header {
@@ -84,11 +87,64 @@ export const Container = styled.section`
     .projects {
       grid-template-columns: 1fr 1fr;
     }
+
+   .img {
+    border-radius: 1.2rem;
+    width: calc(100% - 2rem);
+    height:100px;
+        }
+
   }
 
   @media (max-width: 740px) {
     .projects {
       grid-template-columns: 1fr;
     }
+
+    .img {
+    border-radius: 1.2rem;
+    width: calc(100% - 2rem);
+    height:100px;
+        }
   }
+
+
+
+
+//DA VUELTA LA CARD
+
+.front, .back {
+  backface-visibility: hidden;
+}
+
+.front {
+ position: absolute
+  transform: rotateY(0deg);
+  transition: all 0.3s linear;
+}
+
+.back {
+  transition: all 0.3s linear;
+  transform: rotateY(180deg);
+  position:absolute
+}
+
+.container:hover .front {
+  transform: rotateY(180deg);
+}
+
+.container:hover .back {
+  transform: rotateY(360deg);
+}
+//DA VUELTA LA CARD
+
+
+
+.img{
+border-radius: 1.2rem;
+width: calc(100% - 2rem);
+height:250px;
+}
+
+
 `;
