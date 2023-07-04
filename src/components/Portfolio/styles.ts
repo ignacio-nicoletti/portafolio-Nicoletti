@@ -136,6 +136,10 @@ export const Container = styled.section`
 .container:hover .back {
   transform: rotateY(360deg);
 }
+
+.front:hover{
+  transform: rotateY(180deg);
+}
 //DA VUELTA LA CARD
 
 

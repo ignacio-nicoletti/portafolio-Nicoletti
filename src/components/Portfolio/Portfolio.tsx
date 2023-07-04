@@ -1,16 +1,14 @@
-import React from 'react';
+import React from "react";
 import { Container } from "./styles";
-import githubIcon from "../../assets/github-icon.svg"
-import externalLinkIcon from "../../assets/external-link-icon.svg"
+import githubIcon from "../../assets/github-icon.svg";
+import externalLinkIcon from "../../assets/external-link-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
-import timeapp from '../../assets/time-app.png'
-import droner from '../../assets/droner.png'
-import nabijash from '../../assets/nabijash.png'
-import store from '../../assets/store.png'
-import proceso from '../../assets/proceso.png'
-
-
-
+import timeapp from "../../assets/time-app.png";
+import droner from "../../assets/droner.png";
+import nabijash from "../../assets/nabijash.png";
+import store from "../../assets/store.png";
+import proceso from "../../assets/proceso.png";
+import nailsturn from "../../assets/nailsturn.png";
 
 export function Portfolio() {
   return (
@@ -18,21 +16,41 @@ export function Portfolio() {
       <h2>Mis Trabajos</h2>
 
       <div className="projects">
-
         <ScrollAnimation animateIn="flipInX">
           <div className="project container">
-            <div className='front'>
+            <div className="front">
               <header>
-                <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="red " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                <svg
+                  width="50"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="red "
+                  strokeWidth="1"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <title>Folder</title>
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
                 <div className="project-links">
-                  <a href="https://nabijash.vercel.app/" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://nabijash.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <img src={externalLinkIcon} alt="Link" />
                   </a>
                 </div>
               </header>
               <div className="body">
                 <h3>NABIJASH</h3>
-                <p>Una plataforma desarrollada en el Bootcamp Soy Henry. <a href="https://nabijash.vercel.app/"> NABIJASH</a> está pensada para la inclusión de los estudiantes a las empresas mediante pasantías.
+                <p>
+                  Una plataforma desarrollada en el Bootcamp Soy Henry.{" "}
+                  <a href="https://nabijash.vercel.app/"> NABIJASH</a> está
+                  pensada para la inclusión de los estudiantes a las empresas
+                  mediante pasantías.
                 </p>
               </div>
               <footer>
@@ -47,25 +65,50 @@ export function Portfolio() {
               </footer>
             </div>
             <div className="back">
-              <img src={nabijash} alt="" className='img' />
+              <a
+                href="https://nabijash.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={nabijash} alt="" className="img" />
+              </a>
             </div>
           </div>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project container">
-            <div className='front'>
+            <div className="front">
               <header>
-                <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="red " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                <svg
+                  width="50"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="red "
+                  strokeWidth="1"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <title>Folder</title>
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
                 <div className="project-links">
-                  <a href="https://github.com/ignacio-nicoletti/Portfolio" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://github.com/ignacio-nicoletti/Portfolio"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <img src={githubIcon} alt="Visitar sitio" />
                   </a>
                 </div>
               </header>
               <div className="body">
                 <h3>Portfolio</h3>
-                <p>Una versión de mi portfolio usando React, Typescript y StyledComponents.
+                <p>
+                  Una versión de mi portfolio usando React, Typescript y
+                  StyledComponents.
                 </p>
               </div>
               <footer>
@@ -77,25 +120,50 @@ export function Portfolio() {
               </footer>
             </div>
             <div className="back">
-              <img src={proceso} alt="" className='img' />
+              <a
+                href="https://github.com/ignacio-nicoletti/Portfolio"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={proceso} alt="" className="img" />
+              </a>
             </div>
           </div>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project container">
-            <div className='front'>
+            <div className="front">
               <header>
-                <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="red" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                <svg
+                  width="50"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="red"
+                  strokeWidth="1"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <title>Folder</title>
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
                 <div className="project-links">
-                  <a href="https://github.com/ignacio-nicoletti/Ta-Te-Ti-con-react-" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://github.com/ignacio-nicoletti/Ta-Te-Ti-con-react-"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <img src={githubIcon} alt="Visitar sitio" />
                   </a>
                 </div>
               </header>
               <div className="body">
                 <h3>Ta - Te - Ti</h3>
-                <p>El famoso y tradicional juego de cruces y circulos, desarrollado en React.
+                <p>
+                  El famoso y tradicional juego de cruces y circulos,
+                  desarrollado en React.
                 </p>
               </div>
               <footer>
@@ -105,26 +173,50 @@ export function Portfolio() {
               </footer>
             </div>
             <div className="back">
-              <img src={proceso} alt="" className='img' />
+              <a
+                href="https://github.com/ignacio-nicoletti/Ta-Te-Ti-con-react-"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={proceso} alt="" className="img" />
+              </a>
             </div>
           </div>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project container">
-            <div className='front'>
+            <div className="front">
               <header>
-                <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="red" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                <svg
+                  width="50"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="red"
+                  strokeWidth="1"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <title>Folder</title>
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
                 <div className="project-links">
-                  <a href="https://github.com/ignacio-nicoletti/proyecto_individual" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://github.com/ignacio-nicoletti/proyecto_individual"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <img src={githubIcon} alt="Visitar sitio" />
                   </a>
-
                 </div>
               </header>
               <div className="body">
                 <h3>VideoGames SPA</h3>
-                <p>Un proyecto individual en el cual se debía construir una App utlizando React, Redux, Node y Sequelize.
+                <p>
+                  Un proyecto individual en el cual se debía construir una App
+                  utlizando React, Redux, Node y Sequelize.
                 </p>
               </div>
               <footer>
@@ -137,26 +229,50 @@ export function Portfolio() {
               </footer>
             </div>
             <div className="back">
-              <img src={proceso} alt="" className='img' />
+              <a
+                href="https://github.com/ignacio-nicoletti/proyecto_individual"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={proceso} alt="" className="img" />
+              </a>
             </div>
           </div>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project container">
-            <div className='front'>
+            <div className="front">
               <header>
-                <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="red" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                <svg
+                  width="50"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="red"
+                  strokeWidth="1"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <title>Folder</title>
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
                 <div className="project-links">
-                  <a href="https://github.com/ignacio-nicoletti/TimeApp" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://github.com/ignacio-nicoletti/TimeApp"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <img src={githubIcon} alt="Visitar sitio" />
                   </a>
-
                 </div>
               </header>
               <div className="body">
                 <h3>Time-APP</h3>
-                <p>Aplicacion para practicar pedido a una api usando fetch y renderizado de la informacion.
+                <p>
+                  Aplicacion para practicar pedido a una api usando fetch y
+                  renderizado de la informacion.
                 </p>
               </div>
               <footer>
@@ -169,26 +285,50 @@ export function Portfolio() {
               </footer>
             </div>
             <div className="back">
-              <img src={timeapp} alt="imagen timeapp" className='img' />
+              <a
+                href="https://github.com/ignacio-nicoletti/TimeApp"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={timeapp} alt="imagen timeapp" className="img" />
+              </a>
             </div>
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX " >
+        <ScrollAnimation animateIn="flipInX ">
           <div className="project container">
-            <div className='front'>
+            <div className="front">
               <header>
-                <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="red" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                <svg
+                  width="50"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="red"
+                  strokeWidth="1"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <title>Folder</title>
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
                 <div className="project-links">
-                  <a href="https://github.com/ignacio-nicoletti/Drone-" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://github.com/ignacio-nicoletti/Drone-"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <img src={githubIcon} alt="Visitar sitio" />
                   </a>
-
                 </div>
               </header>
               <div className="body">
                 <h3>Portfolio-Droner</h3>
-                <p>Pagina SPA, Presentando a un Droner y utilizado para su publicidad.
+                <p>
+                  Pagina SPA, Presentando a un Droner y utilizado para su
+                  publicidad.
                 </p>
               </div>
               <footer>
@@ -201,30 +341,50 @@ export function Portfolio() {
               </footer>
             </div>
             <div className="back">
-              <img src={droner} alt="" className='img' />
+              <a
+                href="https://github.com/ignacio-nicoletti/Drone-"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={droner} alt="" className="img" />
+              </a>
             </div>
           </div>
         </ScrollAnimation>
 
-
-
-
-        <ScrollAnimation animateIn="flipInX" >
-          <div className='project container'>
-            <div className='front'>
-
-              <header >
-                <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="red" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project container">
+            <div className="front">
+              <header>
+                <svg
+                  width="50"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="red"
+                  strokeWidth="1"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <title>Folder</title>
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
                 <div className="project-links">
-                  <a href="https://github.com/ignacio-nicoletti/storeAPP-nextJS" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://github.com/ignacio-nicoletti/storeAPP-nextJS"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <img src={githubIcon} alt="Visitar sitio" />
                   </a>
-
                 </div>
               </header>
               <div className="body">
                 <h3>Store con nextJS</h3>
-                <p>Aprendiendo nextJS cree una store en la ruta home una tienda y otras rutas con otras tiendas.
+                <p>
+                  Aprendiendo nextJS cree una store en la ruta home una tienda y
+                  otras rutas con otras tiendas.
                 </p>
               </div>
               <footer>
@@ -232,22 +392,77 @@ export function Portfolio() {
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>NextJS</li>
-
                 </ul>
               </footer>
-
             </div>
             <div className="back">
-              <img src={store} alt="" className='img' />
+              <a
+                href="https://github.com/ignacio-nicoletti/storeAPP-nextJS"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={store} alt="" className="img" />
+              </a>
             </div>
-
           </div>
-
         </ScrollAnimation>
 
-
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project container">
+            <div className="front">
+              <header>
+                <svg
+                  width="50"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="red"
+                  strokeWidth="1"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <title>Folder</title>
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <div className="project-links">
+                  <a
+                    href="https://github.com/ignacio-nicoletti/nailsPage"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={githubIcon} alt="Visitar sitio" />
+                  </a>
+                </div>
+              </header>
+              <div className="body">
+                <h3>App de turnos</h3>
+                <p>
+                  Una app en la que marcas los servicios que quieras obtener,
+                  dia y horario y luego envia un mail al empleador.
+                </p>
+              </div>
+              <footer>
+                <ul className="tech-list">
+                  <li>NextJS</li>
+                  <li>emailjs</li>
+                  <li>CSS</li>
+                </ul>
+              </footer>
+            </div>
+            <div className="back">
+              <a
+                href="https://github.com/ignacio-nicoletti/nailsPage"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={nailsturn} alt="" className="img" />
+                {/* <img src={githubIcon} alt="Visitar sitio" /> */}
+              </a>
+            </div>
+          </div>
+        </ScrollAnimation>
       </div>
-
-    </Container >
+    </Container>
   );
 }
