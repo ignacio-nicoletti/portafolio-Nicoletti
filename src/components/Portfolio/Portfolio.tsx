@@ -9,6 +9,7 @@ import nabijash from "../../assets/nabijash.png";
 import store from "../../assets/store.png";
 import proceso from "../../assets/proceso.png";
 import nailsturn from "../../assets/nailsturn.png";
+import ecomerce from "../../assets/ecomerce.png";
 
 export function Portfolio() {
   return (
@@ -457,6 +458,60 @@ export function Portfolio() {
                 rel="noreferrer"
               >
                 <img src={nailsturn} alt="" className="img" />
+                {/* <img src={githubIcon} alt="Visitar sitio" /> */}
+              </a>
+            </div>
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project container">
+            <div className="front">
+              <header>
+                <svg
+                  width="50"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="red"
+                  strokeWidth="1"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <title>Folder</title>
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <div className="project-links">
+                  <a
+                    href="https://github.com/ignacio-nicoletti/Advance_detail-Client"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={githubIcon} alt="Visitar sitio" />
+                  </a>
+                </div>
+              </header>
+              <div className="body">
+                <h3>E-Comerce Advance_detailer</h3>
+                <p>
+                Desarrollo de LandingPage complementada con E-comerce. Dirigida a rubro de detailing de vehiculos.
+                </p>
+              </div>
+              <footer>
+                <ul className="tech-list">
+                  <li>NextJS</li>
+                  <li>NodeJs</li>
+                  <li>MongoDB</li>
+                </ul>
+              </footer>
+            </div>
+            <div className="back">
+              <a
+                href="https://github.com/ignacio-nicoletti/Advance_detail-Client"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={ecomerce} alt="" className="img" />
                 {/* <img src={githubIcon} alt="Visitar sitio" /> */}
               </a>
             </div>
